@@ -1,10 +1,12 @@
 # TickTick Task Creator for Obsidian
 
-[!NOTE]
+> [!NOTE]
 > This plugin is in an early planning phase.
 > I expect to begin development sometime this summer. First release may be in early fall.
 
 TickTick Task Creator will allow you to create tasks in [TickTick](https://ticktick.com/) based on your [Obsidian](https://obsidian.md/) notes.
+
+This plugin assumes that you rely on TickTick for task management (reminders, due dates, priorities, etc.), and use Obsidian to manage supporting information.
 
 ## Features
 
@@ -14,8 +16,15 @@ TickTick Task Creator will allow you to create tasks in [TickTick](https://tickt
   - Set attributes using TickTick Quick Add syntax within Obsidian
 - Update a task associated with a note when note properties are edited
 
+> [!WARNING]
+> The TickTick API currently does not support reading or editing tags.
+
 ## Scope
 
 I'm creating this plugin primarily for my own use. At present, I only plan to implement simple features that I find essential to my own workflow. Bidirectional or TickTick → Obsidian sync is not currently on the roadmap.
 
 Once I've released an MVP, I'd be happy to consider PRs and feature requests.
+
+## Other TickTick Plugins
+
+If you're looking for a way to manage your TickTick tasks within Obsidian, take a look at [TickTickSync](https://github.com/thesamim/TickTickSync), which is designed for compatibility with the [Tasks Plugin](https://github.com/obsidian-tasks-group/obsidian-tasks).
