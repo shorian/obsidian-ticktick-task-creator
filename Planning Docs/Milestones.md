@@ -2,7 +2,7 @@
 
 ## Overview
 
-Obsidian TickTick Task Creator is an Obsidian plugin designed to create TickTick tasks based on note properties. This plugin is intended to support a workflow in which TickTick is used as the primary task management tool (scheduling, prioritizing), while Obsidian is used to manage detailed project plans and supporting information.
+Obsidian TickTick Task Creator is an Obsidian plugin designed to create TickTick tasks based on note properties. This plugin is intended to support a workflow in which TickTick is used as the primary task management tool (used to schedule, track, and prioritize), while Obsidian is used to manage detailed project plans and supporting information.
 
 ## Milestones
 
