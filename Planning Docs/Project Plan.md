@@ -50,7 +50,7 @@ gantt
         Release :g, 2025-09-15, 5d
 ```
 
-See [Milestone Chart](milestones.md)
+See [Milestone Chart](Milestones.md)
 
 ## Resources
 
