@@ -16,7 +16,7 @@ This plugin assumes that you rely on TickTick for task management (reminders, du
   - Set attributes using TickTick Quick Add syntax within Obsidian
 - Update a task associated with a note when note properties are edited
 
-> [!WARNING]
+> [!Note]
 > The TickTick API currently does not support reading or editing tags.
 
 ## Scope
