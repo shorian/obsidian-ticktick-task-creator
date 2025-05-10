@@ -8,7 +8,7 @@ Obsidian TickTick Task Creator is an Obsidian plugin designed to create TickTick
 
 | Milestones                                          | Deliverables                                                                                                                                                                                                                                                                                         | Target Date | Dependencies                                                  | Status   |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------- | -------- |
-| Basic task creation                                 | TickTick Task Creator can create a task in TickTick based on the title of an Obsidian note. Task creation is controlled on a per-note basis.<br><br>Authorization flow for initial setup                                                                                                             | 2025-07-11  | None                                                          | Planned  |
+| Proof of concept                                 | TickTick Task Creator can create a task in TickTick based on the title of an Obsidian note. Task creation is controlled on a per-note basis.<br><br>Authorization flow for initial setup                                                                                                             | 2025-07-11  | None                                                          | Planned  |
 | Task ↔ Note links                                   | Insert a link to the Obsidian note in the description of a created TickTick task.<br><br>Add a link to a created TickTick task to the properties of the associated Obsidian note.                                                                                                                    | 2025-07-18  | Basic task creation                                           | Planned  |
 | Set task attributes from note properties            | Set the due date, list, priority, and tags of a created TickTick task based on YAML properties of the Obsidian note.<br><br>Create plugin settings to configure associations between frontmatter keys and task attributes.                                                                           | 2025-08-01  | Basic task creation                                           | Planned  |
 | Set task attributes using TickTick Quick Add syntax | Set task attributes using TickTick Quick Add syntax in Obsidian note properties. For instance, `ticktick-attrs: !High ~Home`  creates a task with High priority in the user's Home list.<br><br>The plugin is responsible for parsing this input, as it isn't supported directly by the TickTick API. | 2025-08-15  | Basic task creation                                           | Planned  |
@@ -23,7 +23,7 @@ gantt
     axisFormat %b %e
 
     section Milestones
-        Basic task creation   :a, 2025-07-07, 5d
+        Proof of Concept   :a, 2025-07-07, 5d
         Obsidian ↔ Note links :b, 2025-07-14, 5d
         Set task attributes from note properties :c, 2025-07-21, 12d
         Quick Add syntax :d, 2025-08-04, 12d

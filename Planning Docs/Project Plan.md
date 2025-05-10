@@ -58,7 +58,7 @@ gantt
     axisFormat %b %e
 
     section Milestones
-        Basic task creation   :a, 2025-07-07, 5d
+        Proof of Concept   :a, 2025-07-07, 5d
         Obsidian ↔ Note links :b, 2025-07-14, 5d
         Set task attributes from note properties :c, 2025-07-21, 12d
         Quick Add syntax :d, 2025-08-04, 12d
