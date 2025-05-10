@@ -2,21 +2,28 @@
 
 ## Summary
 
-Obsidian has some incredible features for knowledge management, but for keeping a to-do list, it's an awkward choice at best. TickTick is a highly flexible task-management app with comparatively limited note-taking features.
+Obsidian has some incredible features for knowledge management, but for keeping a to-do list, it's an awkward choice at best. TickTick is a highly flexible task-management app with relatively limited note-taking features.
 
-As a user of both systems, some of my tasks in TickTick are associated with supporting information in my Obsidian vault. Without this plugin, I have to enter this information redundantly. Obsidian TickTIck Task Creator will create tasks in TickTick based on the name and frontmatter properties of an Obsidian note, saving time and reducing errors and inconsistencies.
+As a user of both systems, some of my tasks in TickTick are associated with supporting information in my Obsidian vault. Without this plugin, I have to enter this information redundantly. Obsidian TickTIck Task Creator will create tasks in TickTick based on the name and frontmatter properties of an Obsidian note, saving time and improving data consistency.
+
+## Objectives
+
+- All planned features implemented by September 1, 2025
+  - With at least 90% test coverage
+- First draft of user documentation for all planned features by September 12
+- Submit for inclusion in Obsidian Community Plugins by the end of September
+- Plugin has more than one user by the end of October
 
 ## Scope
 
 ### Must Have
 
 - Obsidian plugin creates tasks in TickTick based on notes in Obsidian
-  - OAuth
 - Maintain links from a TickTick task to the original Obsidian note, and from the note to its associated TickTick task
 - TickTick task attributes set based on Obsidian note properties
   - Settings to configure associations between frontmatter keys and task attributes
 - Set task attributes based on TickTick Quick Add syntax
-- Good test coverage
+- Effective test suite
 - Clear user documentation
 
 ### Nice to Have
@@ -24,13 +31,23 @@ As a user of both systems, some of my tasks in TickTick are associated with supp
 - Sync edits to Obsidian note properties to an associated TickTick task
 - Natural language date parsing within Quick Add strings
 - 100% test coverage
-- Inclusion in Obsidian Community Plugins directory
 
 ### Out of Scope
 
 - Syncing Obsidian note content to TickTick task description
 - Bidirectional or TickTick → Obsidian sync
   - May be considered for a future version
+
+## Deliverables
+
+- Functioning plugin prototype
+- User documentation
+
+## Stakeholders
+
+- Me as planner, developer, and user
+- Obsidian community - users, testers, perhaps future contributors
+- TickTick - API provider
 
 ## Timeline
 
@@ -62,17 +79,27 @@ Aside from myself,
 
 ## Risks
 
+- Insufficient time for the project - may be occupied by higher priorities
+  - Mitigated by narrow scope and relaxed schedule
 - TickTick API limitations
   - One unwelcome surprise here already: the TickTick API does not support operations on task tags.
-- Insufficient time for the project - may be occupied by higher priorities.
+- Mangling Obsidian or TickTick data
+  - Mitigate with separate Obsidian vault and TickTick account for testing
+- Improper handling of auth token or sensitive user data
+  - Mitigations: careful design, code review
 
-## Dependencies
+## Communication Plan
 
-- User documentation (before beta testing)
-- Beta testing (before submission to Community Plugins)
-- Security review (before submission to Community Plugins)
+Naturally, project information will be managed in my Obsidian vault, and associated tasks will be tracked in TickTick.
 
-## Quality Assurance
+The Obsidian Discord server will be used to solicit help with technical questions, find beta testers, share progress, and respond to user questions and feedback.
 
-- Test-driven development workflow
-- Beta testing
+The repository wiki will be used to host user documentation. GitHub Issues will be used to collect bug reports and feature requests.
+
+## Success Metrics
+
+- Plugin reliably and correctly creates TickTick tasks based on user configuration
+- Test suite accurately characterizes plugin behavior and quickly reveals regressions.
+- Plugin saves users time and improves data consistency
+- Inclusion in Obsidian Community Plugins
+- Plugin has more than one user
